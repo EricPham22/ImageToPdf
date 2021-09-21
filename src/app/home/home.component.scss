@@ -1,0 +1,14 @@
+input[type="file"] {
+    display: none;
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    .image {
+        width: 50%;
+        height: 50%;
+    }
+}
